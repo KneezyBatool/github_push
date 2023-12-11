@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+<LinearLayout
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border_shape"
+    android:padding="24dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="36sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:background="@drawable/border_shape"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="40dp"
+        android:padding="8dp"
+        android:hint="username"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/baseline_person"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passward"
+        android:background="@drawable/border_shape"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:hint="passward"
+        android:inputType="number"
+        android:drawableLeft="@drawable/baseline_lock"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept terms and conditions"
+        android:textColor="@color/black"
+        android:id="@+id/terms"
+        android:textAlignment="center"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        android:textSize="18sp"
+        android:id="@+id/login_btn"
+        android:backgroundTint="@color/black"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:layout_marginTop="30dp"
+        android:textSize="22sp"
+        android:id="@+id/signup_tv"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/adunitId">
+        </com.google.android.gms.ads.AdView>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

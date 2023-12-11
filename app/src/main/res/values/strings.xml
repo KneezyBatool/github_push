@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">loanEase</string>
+    <string name="title_activity_drawer2">DrawerActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_playstore">Playstore</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="appId">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="adunitId">ca-app-pub-3940256099942544/6300978111</string>
+
+<string name="now">Verify Now</string>
+    <string name="updates">Loan Updates</string>
+    <string name="status">Status</string>
+    <string name="issued">Total issued Loans For SO For</string>
+    <string name="reapply">Reapply</string>
+    <string name="apply_desc">Amount Requested :\nService Rate (Annually):\nDuration:\nAmountRepayable </string>
+    <string name="apply">Apply FOR Loan</string>
+    <string name="calcu">Calculate</string>
+    <string name="calc_detail">You can calculate your loan payment even before applying for loan.Information such as</string>
+    <string name="calc">Loan Calculate</string>
+    <string name="account">Account Details</string>
+    <string name="account_details">Provide your Account detail for disbursement of loan after a successful application </string>
+    <string name="set_account">Set Account</string>
+    <string name="verify_text">Verify your contact number , please get verification code which we have sent ti your mobile</string>
+<array name="steps">
+    <item>Start</item>
+    <item>Applied</item>
+    <item>Pending</item>
+    <item>Approved</item>
+</array>
+
+</resources>
